@@ -1,0 +1,32 @@
+# Project: chemistry game
+# Makefile created by Dev-C++ 4.9.9.1
+
+CPP  = g++.exe
+CC   = gcc.exe
+WINDRES = windres.exe
+RES  = chemistry_game_private.res
+OBJ  = main.o $(RES)
+LINKOBJ  = main.o $(RES)
+LIBS =  -L"C:/Dev-Cpp/lib" -mwindows  
+INCS =  -I"C:/Dev-Cpp/include"  -I"C:/Dev-Cpp/include/boost_1_33_1"  -I"C:/Dev-Cpp/include/boost_1_33_1/boost" 
+CXXINCS =  -I"C:/Dev-Cpp/include/c++/3.3.1"  -I"C:/Dev-Cpp/include/c++/3.3.1/mingw32"  -I"C:/Dev-Cpp/include/c++/3.3.1/backward"  -I"C:/Dev-Cpp/lib/gcc-lib/mingw32/3.3.1/include"  -I"C:/Dev-Cpp/include"  -I"C:/Dev-Cpp/include/boost_1_33_1" 
+BIN  = CheMaster.exe
+CXXFLAGS = $(CXXINCS)   -w
+CFLAGS = $(INCS)   -w
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before CheMaster.exe all-after
+
+
+clean: clean-custom
+	rm -f $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o "CheMaster.exe" $(LIBS)
+
+main.o: main.cpp
+	$(CPP) -c main.cpp -o main.o $(CXXFLAGS)
+
+chemistry_game_private.res: chemistry_game_private.rc chemgame.rc 
+	$(WINDRES) -i chemistry_game_private.rc --input-format=rc -o chemistry_game_private.res -O coff  --include-dir C:/DOCUME~1/Mathew/MYDOCU~1/CHEMIS~1

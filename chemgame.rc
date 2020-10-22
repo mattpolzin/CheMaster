@@ -1,0 +1,44 @@
+
+
+//chemgame.rc
+
+
+#include"resource.h"
+
+DIRT BITMAP dirt.bmp
+HOLE BITMAP hole.bmp
+METALDOOR BITMAP metaldoor.bmp
+METALDOORRUSTED BITMAP metaldoorrusted.bmp
+ROCKWALL BITMAP rockwall.bmp
+WATERHOLE BITMAP waterhole.bmp
+WOODDOOR BITMAP wooddoor.bmp
+WOODDOORBURNT BITMAP wooddoorburnt.bmp
+EXIT BITMAP exit.bmp
+
+METALDOOR2 BITMAP metaldoor2.bmp
+METALDOORRUSTED2 BITMAP metaldoorrusted2.bmp
+WOODDOOR2 BITMAP wooddoor2.bmp
+WOODDOORBURNT2 BITMAP wooddoorburnt2.bmp
+
+PACKAGE BITMAP package.bmp
+PACKAGEMASK BITMAP packageMask.bmp
+
+PLAYERUP BITMAP player1_.bmp
+PLAYERRIGHT BITMAP player2_.bmp
+PLAYERDOWN BITMAP player3_.bmp
+PLAYERLEFT BITMAP player4_.bmp
+
+PLAYERUPMASK BITMAP playermask1_.bmp
+PLAYERRIGHTMASK BITMAP playermask2_.bmp
+PLAYERDOWNMASK BITMAP playermask3_.bmp
+PLAYERLEFTMASK BITMAP playermask4_.bmp
+
+EXPLOSION BITMAP explosion.bmp
+EXPLOSIONMASK BITMAP explosionmask.bmp
+SPLASH BITMAP splashscreen4.bmp
+
+TITLEBAR BITMAP titlebar.bmp
+TITLEBARMASK BITMAP titlebarmask.bmp
+
+TITLEBAR2 BITMAP titlebar2.bmp
+TITLEBAR2MASK BITMAP titlebarmask2.bmp

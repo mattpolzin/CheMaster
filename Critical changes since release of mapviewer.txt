@@ -1,0 +1,24 @@
+1. The players position is now absolute, not relative to the outer ring of rocks.
+   (i.e. 1,1 as a position in the map would put the player in the rocks.)
+
+_____________________________________________________________________________________________
+PLEASE TELL ME ANYTHING YOU CAN ABOUT: things that don't work or things that could be better.
+
+
+
+
+
+CONTROLS:   i= refresh inventory (not really ever necessary)
+            w= use water.
+            r= use iron oxide (rust)
+        space= more info on whatever is in front of you.
+            m= mix substances (spereate elements with plus. if you want to decompose just 
+                              name one element with no plus, and if it can decompose it will)
+
+
+
+
+
+CAMDEN: IMAGES HAVE BEEN CHANGED, but i am not sure if any of the images that have been 
+                                  changed will be part of your editor. I think i just made
+                                  the explosion image smaller (64x64).

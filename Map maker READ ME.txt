@@ -1,0 +1,51 @@
+---------------------------------
+CheMaster Map Maker
+Written By: Camden Segal
+Assisted by: Mathew Polzin
+---------------------------------
+The CheMaster map maker is a simple tool to make a level for
+the chemical compound game CheMaster.
+
+HOW TO USE THE CHEMASTER MAP MAKER:
+-----------------------------------
+
+BASICS:
+-------
+When you start the map maker, you are presented with a screen filled with the solid wall tiles.
+To change these tiles you can either left click to toggle between several types of tiles, or select a specific
+type useing the numpad, and right click to place it.
+
+-1 Place current molecule(More on this later)
+-2 Place player start(defaults upper left corner)
+-3 Place exit tile, player wins when this is reached
+-4 Place a basic dirt tile.
+-5 Place a solid wall tile.
+-6 Delete a molecule that you have placed.
+
+The tiles that you can only reach by left clicking are:
+
+-Iron door - requires FeO to rust.
+-Rusted Iron door, already opened iron door, passable.
+-Wooden Door - requires a combustion reaction to open.
+-Burnt Wooden door, already opened, passable.
+-Hole - Requires H2O to fill and swim through
+-Water-filled hole -  Already filled hole, passable.
+
+MOLECULES:
+----------
+Molecules are very important for solving this game's puzzles.  To select a specific molecule you
+must use the arrow keys:  Up and down to select the number of moles of the molecule up to 9, and left and
+right to select which molecule.  You can only have one type of molecule per square. The currently selected
+molecule is displayed in the bottom bar to the right.  To place the molecule you have selected, press 1 on
+the numpad and right click where you want the molecule placed.
+
+SAVING:
+-------
+To save your map press the enter key, and press a number between 1 and 9, if you press 2 it will be saved as
+level2.cgl.  The game cycles through maps in order starting at level1.cgl, if there is not a level2.cgl it will stop.
+if you choose a level number that level will be over written, so BE CAREFUL!
+
+LOADING:
+--------
+To load previously created maps, press the backspace key, then a number between 1 and 9 coressponding to the
+level you would like to open.
